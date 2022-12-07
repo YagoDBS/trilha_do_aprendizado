@@ -1,0 +1,39 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: black;
+}
+
+div{
+    height: 300px;
+    width: 800px;
+    margin: 1px;
+}
+
+.box1{
+    background-color: limegreen; /*Não permite reposicionar o bob*/
+    position: static;
+}
+.box2{
+    position: relative; /*Altera o posicionamento em relação onde o bob foi definido*/
+    background-color:powderblue;
+    left:450px;
+    bottom: 200px;
+}
+.box3{
+    background-color:navy;
+    position: absolute;
+    bottom: 0px;
+    left: 550px;
+
+}
+.box4{
+    top:100px;
+    height: 100px;
+    background-color: darkgray;
+    position:fixed;
+}
+.box5{
+    position:sticky;
+    bottom: 100px;
+    background-color: mediumslateblue;
+}

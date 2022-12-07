@@ -1,0 +1,12 @@
+body{
+    background-color: rgb(237, 245, 195);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    background-color:green;
+    color:lightgreen;
+    text-align:center;
+}
+h2, h3{
+    color:darkgreen;
+}
