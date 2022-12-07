@@ -1,0 +1,53 @@
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    background:linear-gradient(to right, #BD95B2, #327026);
+}
+header{
+    left: 0px;
+    top: 0px;
+    height: 105px;
+    width: 100%;
+    background-color: #64BD53;
+}
+.logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 50px;
+}
+.links{
+    overflow: hidden; 
+}
+.links a{
+    font-family: 'Courier New', Courier, monospace;
+    float:right;
+    padding: 5px;
+    padding-top:0px;
+    right:2px;
+    margin: 2px;
+    text-decoration: none;
+    color:#701B5A;
+}
+.links a:hover{
+    color:#9DFF8A;
+}
+.sobre{
+    padding: 100px;
+    text-align:center;
+}
+.citacoes{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+#titulo{
+    text-decoration: double;
+}
+.citacao{
+    float: left;
+    padding: 50px 20px;
+    width: 30%;
+    height: 80px;
+    margin: 0.4%;
+    background-color: #9DFF8A;
+    box-shadow: 10px 10px 10px #08101a98;
+}
